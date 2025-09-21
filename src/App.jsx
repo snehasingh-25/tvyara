@@ -1,13 +1,13 @@
 import React from 'react'
-import './App.css'
+import './index.css'
 import {
   BrowserRouter,
   Route,
   Routes,
 } from "react-router-dom";
-import TaskA from './assets/pages/TaskA';
-import TaskB from './assets/pages/TaskB';
-import TaskC from './assets/pages/TaskC';
+import TaskA from './pages/TaskA';
+import TaskB from './pages/TaskB';
+import TaskC from './pages/TaskC';
 const App = () => {
   return (
    <BrowserRouter>
